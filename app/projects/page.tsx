@@ -27,7 +27,7 @@ import Image from "next/image";
         <h1>Todo web application</h1>
 
         <a
-          href="https://todo-typescript-react-owais-khans-rojects-ce0d8482.vercel.app/"
+          href="https://owaiskhan-todo-typescript-project.vercel.app"
           target="main" className="mb-3"
         >
           <Image
