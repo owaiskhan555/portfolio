@@ -5,7 +5,7 @@ import Image from "next/image";
 
   return (
     
-    <div className="w-full bg-gradient-to-r from-blue-700 via-yellow-500 to-red-600 text-white  ">
+    <div className="h-screen w-full bg-gradient-to-r from-blue-700 via-yellow-500 to-red-600 text-white  ">
 
       <h1 >Here is my some projects</h1>
 
@@ -17,7 +17,7 @@ import Image from "next/image";
           target="main" className="mb-3"
         >
           <Image
-            src="/download.png"
+            src="/project.png"
             width={200}
             height={200}
             alt="Project"
@@ -25,13 +25,12 @@ import Image from "next/image";
           />
         </a>
         <h1>Todo web application</h1>
-
         <a
           href="https://owaiskhan-todo-typescript-project.vercel.app"
           target="main" className="mb-3"
         >
           <Image
-            src="/project.png"
+            src="/download.png"
             height={200}
             width={200}
             alt="Project"
