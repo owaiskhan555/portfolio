@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default async function notFound() {
-    await new Promise<void>((resolve) => {
+    await new Promise((resolve) => {
       setTimeout(resolve,3000);
     })
 
