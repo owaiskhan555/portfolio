@@ -5,13 +5,20 @@ import Image from "next/image";
 
   return (
     
-    <div className="h-screen w-full bg-gradient-to-r from-blue-700 via-yellow-500 to-red-600 text-white  ">
+    <div className="min-h-screen w-full bg-slate-950 text-white  ">
+      <div className="flex flex-col">
+      <div className="text-white font-bold text-center p-10 ">
+      <button className="inline-flex items-center justify-center p-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-3xl">
+    <span className=" px-5 py-2.5 text-white bg-gray-900 rounded-3xl">
+      My Services
+    </span>
+  </button>
+  <h1 className="text-4xl mt-10">Take a look at <br />my Recent Work</h1>
+     </div>
+     </div>
 
-      <h1 >Here is my some projects</h1>
-
-      <div className="container flex flex-col justify-between p-2 ">
-
-      <h1>Dyamic resume builder in this web application you can edit your own resume</h1>
+      <div className="container grid grid-cols-2 justify-between p-2 ">
+      <h1 className="text-xl md:text-3xl">Dyamic resume builder in this web application you can edit your own resume</h1>
       <a
           href="https://dynamic-resume-builder-project.vercel.app/"
           target="main" className="mb-3"
@@ -24,7 +31,7 @@ import Image from "next/image";
             className="rounded-3xl"
           />
         </a>
-        <h1>Todo web application</h1>
+        <h1 className="text-xl md:text-3xl mt-4">Todo web application</h1>
         <a
           href="https://owaiskhan-todo-typescript-project.vercel.app"
           target="main" className="mb-3"
@@ -38,10 +45,10 @@ import Image from "next/image";
           />
         </a>
 
-        <h1>Virtual voice assistance </h1>
+        <h1 className="text-xl md:text-3xl mt-6">Virtual voice assistance </h1>
         <a
           href="https://voice-ai-green.vercel.app/"
-          target="main" className="mb-3"
+          target="main" className="mt-3"
         >
           <Image
             src="/project3.png"
