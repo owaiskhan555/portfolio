@@ -12,10 +12,10 @@ export default function Page() {
     <h2 className='text-2xl font-bold mb-3 animate-bounce'>THIS IS OWAIS KHAN</h2>
     <h1 className='text-5xl font-black mb-7'>FRONT-END WEB DEVELOPER</h1>
     <p className='text-xl'>
-      I'm a passionate developer always looking to improve my skills. I've worked with tools like Vite, React, Next.js, and Tailwind CSS, and hosted some of my projects on Vercel. I enjoy the challenge of figuring things out on my own and am always pushing myself to grow as a developer.
+      I&apos;m a passionate developer always looking to improve my skills. I&apos;ve worked with tools like Vite, React, Next.js, and Tailwind CSS, and hosted some of my projects on Vercel. I enjoy the challenge of figuring things out on my own and am always pushing myself to grow as a developer.
     </p>
   </div>
-  <div className='w-full justify-center hidden md:w-2/5 md:block '>
+  <div className='w-full justify-center animate-bounce hidden md:w-2/5 md:block '>
     <Image src="/Mypic.png" height={600} width={400} alt='picture' className='origin-bottom -rotate-12'/>
   </div>
 </div>
