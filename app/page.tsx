@@ -15,7 +15,7 @@ export default function Page() {
       I&apos;m a passionate developer always looking to improve my skills. I&apos;ve worked with tools like Vite, React, Next.js, and Tailwind CSS, and hosted some of my projects on Vercel. I enjoy the challenge of figuring things out on my own and am always pushing myself to grow as a developer.
     </p>
     <p className='text-xl mt-5 mb-6'>Would you like to take a look at my projects</p>
-    <a href="/Services" className="w-32 inline-flex items-center justify-center p-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-3xl hover:scale-100">
+    <a href="/Services" className="w-32 inline-flex items-center justify-center p-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-3xl">
     <button className=" px-4 py-2 text-white bg-gray-900 rounded-3xl ">
       My Services
   </button>
