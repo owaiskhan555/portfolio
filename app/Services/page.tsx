@@ -13,12 +13,11 @@ import Image from "next/image";
       My Services
     </span>
   </button>
-  <h1 className="text-4xl mt-10">Take a look at <br />my Recent Work</h1>
+  <h1 className="text-4xl mt-10 text-center">Take a look at my Recent Work</h1>
      </div>
      </div>
 
-      <div className="container grid grid-cols-2 justify-between p-2 ">
-      <h1 className="text-xl md:text-3xl">Dyamic resume builder in this web application you can edit your own resume</h1>
+      <div className="grid md:grid-cols-3 justify-between p-4 ">
       <a
           href="https://dynamic-resume-builder-project.vercel.app/"
           target="main" className="mb-3"
@@ -30,8 +29,8 @@ import Image from "next/image";
             alt="Project"
             className="rounded-3xl"
           />
+      <h1 className="text-xl md:text-3xl">Dyamic resume builder in this web application you can edit your own resume</h1>
         </a>
-        <h1 className="text-xl md:text-3xl mt-4">Todo web application</h1>
         <a
           href="https://owaiskhan-todo-typescript-project.vercel.app"
           target="main" className="mb-3"
@@ -43,9 +42,8 @@ import Image from "next/image";
             alt="Project"
             className=" rounded-3xl"
           />
+        <h1 className="text-xl md:text-3xl ">Todo web application</h1>
         </a>
-
-        <h1 className="text-xl md:text-3xl mt-6">Virtual voice assistance </h1>
         <a
           href="https://voice-ai-green.vercel.app/"
           target="main" className="mt-3"
@@ -57,6 +55,7 @@ import Image from "next/image";
             alt="Project"
             className=" rounded-3xl"
           />
+          <h1 className="text-xl md:text-3xl">Virtual voice assistance </h1>
         </a>
         </div>
         </div>

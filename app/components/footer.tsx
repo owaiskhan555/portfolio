@@ -7,17 +7,17 @@ export default function Footer() {
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h4 className="text-lg font-bold mb-4">Contact Us</h4>
-            <p>Email: <a href="mailto:info@yourwebsite.com" className="text-blue-400">owaisnoorj@gmail.com</a></p>
-            <p>Phone: +923-496-698-61</p>
+            <p>Email: <a href="mailto:owaisnoorj@gmail.com" className="text-blue-400">owaisnoorj@gmail.com</a></p>
+            <p>Phone: <a href="tel:0349669861">+92349669861</a></p>
             <div className="mt-4 flex space-x-4">
               <a href="https://www.facebook.com/profile.php?id=100080648762387" target="_blank" rel="noopener noreferrer">
                 <Image src="/facebook.png" alt="Facebook"  height={50} width={50}/>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <Image src="/twitter.png" alt="Twitter" height={50} width={50}/>
-              </a>
               <a href="https://www.instagram.com/this_is_.my_.username" target="_blank">
                 <Image src="/instagram.png" alt="Instagram"  height={50} width={50}/>
+              </a>
+                            <a href="https://www.linkedin.com/in/owais-khan-a957a02b4" target="_blank">
+                <Image src="/linkdin.png" alt="Instagram"  height={50} width={50}/>
               </a>
             </div>
           </div>
@@ -27,8 +27,8 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="/" className="hover:underline">Home</a></li>
               <li><a href="/about" className="hover:underline">About</a></li>
-              <li><a href="/services" className="hover:underline">Services</a></li>
-              <li><a href="/contact" className="hover:underline">Contact</a></li>
+              <li><a href="/Services" className="hover:underline">Services</a></li>
+              <li><a href="/Contact" className="hover:underline">Contact</a></li>
             </ul>
           </div>
             <div>
